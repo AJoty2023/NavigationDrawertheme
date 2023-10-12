@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_header_id"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#FFFFF7"
+    android:paddingLeft="15dp">
+
+    <TextView
+        android:id="@+id/menu22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:text="Dynamic Theme"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:textColor="#DDD4D4" />
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/menu22"
+        android:src="@drawable/florist" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/header_icon"
+        android:tint="@color/white"
+        tools:ignore="UseAppTint" />
+
+
+</RelativeLayout>
